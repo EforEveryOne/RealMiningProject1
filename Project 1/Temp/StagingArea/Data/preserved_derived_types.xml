@@ -1,0 +1,8 @@
+<linker>
+<assembly fullname="Assembly-CSharp">
+<type fullname="CubeDestroyScript" preserve="all"/>
+<type fullname="GoldCubeDestroy" preserve="all"/>
+<type fullname="SilverCubeDestroy" preserve="all"/>
+<type fullname="GameController" preserve="all"/>
+</assembly>
+</linker>

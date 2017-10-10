@@ -168,7 +168,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 13.007483
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -290,8 +290,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   miningSpeed: 0
-  bronzeSupply: 0
   cubePrefab: {fileID: 1381939772729382, guid: cd6712cdca6f7a94aa1e9088b590ceac, type: 2}
+  cube1Prefab: {fileID: 1381939772729382, guid: 0d267c5169326d241a1aedee148ceea9,
+    type: 2}
+  cube2Prefab: {fileID: 1381939772729382, guid: 7efaa50e0b5c05843b041d05c4ef003a,
+    type: 2}
 --- !u!4 &1973886500
 Transform:
   m_ObjectHideFlags: 0
