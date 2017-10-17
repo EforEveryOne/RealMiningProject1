@@ -11,9 +11,14 @@ public class SilverCubeDestroy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+		//When the mouse goes down
 	}	void OnMouseDown () { 
+		//removes this specific cube
 		Destroy (gameObject);
+		// worldSupplySilver goes down 1, will be reflected in the console.
 		GameController.worldSupplySilver -= 1;
+		// silverPointts goes up 10
+		GameController.silverPoints += 10;
 	}
 }
